@@ -14,9 +14,11 @@ public class BotCommunication {
     SynthesizerModeDesc desc;
     Synthesizer synthesizer;
     Voice voice;
-    public void voice(String voiceName) throws EngineException, AudioException, EngineStateError,
-            PropertyVetoException{
+    public void voice(String voiceName) throws EngineException, AudioException, EngineStateError, PropertyVetoException{
 
+        if (desc == null){
+
+        }
 
     }
 }
