@@ -43,5 +43,9 @@ public class BotCommunication {
     public void terminate() throws EngineException, EngineStateError {
         synthesizer.deallocate();
     }
+    public void doSpeak(String speakText) throws EngineException, AudioException, IllegalArgumentException,
+            InterruptedException{
+
+    }
     }
 
