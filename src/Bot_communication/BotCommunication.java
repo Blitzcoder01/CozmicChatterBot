@@ -41,7 +41,7 @@ public class BotCommunication {
         }
     }
     public void terminate() throws EngineException, EngineStateError {
-
+        synthesizer.deallocate();
     }
     }
 
