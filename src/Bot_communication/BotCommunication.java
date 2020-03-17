@@ -14,11 +14,17 @@ public class BotCommunication {
     SynthesizerModeDesc desc;
     Synthesizer synthesizer;
     Voice voice;
-    public void voice(String voiceName) throws EngineException, AudioException, EngineStateError, PropertyVetoException{
 
-        if (desc == null){
+    public void voice(String voiceName) throws EngineException, AudioException, EngineStateError, PropertyVetoException {
 
+        if (desc == null) {
+
+            System.setProperty("freetts.voices",
+                    "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+
+
+
+            }
         }
-
     }
-}
+
