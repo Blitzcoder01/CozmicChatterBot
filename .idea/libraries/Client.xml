@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Client">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/Client.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/EmacspeakServer.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/FreeTTSEmacspeakServer.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/FreeTTSHelloWorld.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/HelloWorld.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/JTime.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/MixedVoices.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/Player.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/Server.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/bin/WebStartClock.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/cmu_time_awb.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/cmu_us_kal.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/en_us.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/freetts-jsapi10.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/freetts.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/jsapi.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/freetts-1.2/lib/mbrola.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
