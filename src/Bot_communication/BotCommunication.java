@@ -45,7 +45,8 @@ public class BotCommunication {
     }
     public void doSpeak(String speakText) throws EngineException, AudioException, IllegalArgumentException,
             InterruptedException{
-
+        synthesizer.speakPlainText(speakText, null);
+        synthesizer.waitEngineState(Synthesizer.QUEUE_EMPTY);
     }
     }
 
