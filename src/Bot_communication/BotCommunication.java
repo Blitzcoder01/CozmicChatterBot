@@ -28,17 +28,20 @@ public class BotCommunication {
             synthesizer.allocate();
             synthesizer.resume();
             SynthesizerModeDesc smd =
-                    (SynthesizerModeDesc)synthesizer.getEngineModeDesc();
+                    (SynthesizerModeDesc) synthesizer.getEngineModeDesc();
             Voice[] voices = smd.getVoices();
             Voice voice = null;
-            for(int i = 0; i < voices.length; i++) {
-                if(voices[i].getName().equals(voiceName)) {
+            for (int i = 0; i < voices.length; i++) {
+                if (voices[i].getName().equals(voiceName)) {
                     voice = voices[i];
                     break;
                 }
             }
             synthesizer.getSynthesizerProperties().setVoice(voice);
-            }
         }
+    }
+    public void terminate() throws EngineException, EngineStateError {
+
+    }
     }
 
