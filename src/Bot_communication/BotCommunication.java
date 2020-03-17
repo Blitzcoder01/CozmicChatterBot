@@ -30,7 +30,13 @@ public class BotCommunication {
             SynthesizerModeDesc smd =
                     (SynthesizerModeDesc)synthesizer.getEngineModeDesc();
             Voice[] voices = smd.getVoices();
-
+            Voice voice = null;
+            for(int i = 0; i < voices.length; i++) {
+                if(voices[i].getName().equals(voiceName)) {
+                    voice = voices[i];
+                    break;
+                }
+            }
             }
         }
     }
