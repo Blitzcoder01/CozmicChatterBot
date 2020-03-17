@@ -37,6 +37,7 @@ public class BotCommunication {
                     break;
                 }
             }
+            synthesizer.getSynthesizerProperties().setVoice(voice);
             }
         }
     }
