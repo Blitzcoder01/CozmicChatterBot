@@ -182,6 +182,11 @@ public class execution {
                             System.out.println(">>And here I was hoping to win the World Comedy Championship. \n I think you should help me curate better jokes.");
                             speak.doSpeak("And here I was hoping to win the World Comedy Championship. \n I think you should help me curate better jokes.");
                         }
+                        else if(choice5==3){
+                            System.out.println(">>Well, I tried my hardest.Maybe next time I'll try my softest");
+                            speak.doSpeak("Well!, I tried my hardest.Maybe next time I'll try my softest");
+                        }
+
                     }
                     catch (InputMismatchException e){
                         System.out.println(">>Wrong Input");
