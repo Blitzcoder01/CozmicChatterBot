@@ -126,7 +126,13 @@ public class execution {
                         }
                     }
                     else if(rand_int1==3){
-
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println(">>What do clouds wear under their shorts?");
+                        speak.doSpeak("What do clouds wear under their shorts?");
+                        System.out.print(">>Your Guess: ");
+                        String s3=sc.nextLine();
                     }
                 }
             }
