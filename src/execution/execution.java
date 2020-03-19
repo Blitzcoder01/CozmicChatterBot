@@ -137,6 +137,12 @@ public class execution {
                             speak.doSpeak("correct!");
                             System.out.println(">>Correct! you guess the right answer.");
                         }
+                        else {
+                            speak.doSpeak("Wrong!");
+                            System.out.println(">>Best Of Luck For The Next Time!!.");
+                            speak.doSpeak("the answer is");
+                            speak.doSpeak("Thunderpants");
+                        }
                     }
                 }
             }
