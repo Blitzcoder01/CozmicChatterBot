@@ -268,6 +268,9 @@ public class execution {
                         dictionary search= new dictionary();
                         search.search_dictionary();
                     }
+                    else if (choice3 == 2) {
+
+                    }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
                     speak.doSpeak("wrong input.");
