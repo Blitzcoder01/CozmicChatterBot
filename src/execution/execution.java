@@ -174,6 +174,10 @@ public class execution {
                         System.out.println(">>Press 3 if it was bad");
                         System.out.print(">>Your Choice:");
                         int choice5=sc.nextInt();
+                        if(choice5==1){
+                            System.out.println(">>Thank's I've got more where that came from");
+                            speak.doSpeak("Thank's I've got more where that came from");
+                        }
                     }
                     catch (InputMismatchException e){
                         System.out.println(">>Wrong Input");
