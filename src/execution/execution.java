@@ -65,6 +65,9 @@ public class execution {
                 System.out.println("");
                 if(choice2==1) {
                     int rand_int1 = rand.nextInt(5);
+                    sc.nextLine();
+                    System.out.println(">>Well! I have a joke for you");
+                    speak.doSpeak("Well! i have a joke for you");
                 }
             }
         }
