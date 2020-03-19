@@ -236,6 +236,10 @@ public class execution {
                         speak.doSpeak("wrong try, try again!");
                     }
                 }
+                else{
+                    System.out.println(">>Wrong Attempt");
+                    speak.doSpeak("oh oh! wrong attempt");
+                }
             }
         }
         catch (InputMismatchException e){
