@@ -63,6 +63,9 @@ public class execution {
                 for(int i=0;i<26;i++)
                     System.out.print("# ");
                 System.out.println("");
+                if(choice2==1) {
+
+                }
             }
         }
         catch (InputMismatchException e){
