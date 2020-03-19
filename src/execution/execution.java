@@ -41,12 +41,15 @@ public class execution {
         System.out.println(">>Press 1 for fun");
         System.out.println(">>Press 2 for ask me anything");
         try {
+            System.out.print(">>Your Choice:");
+            int choice=sc.nextInt();
         }
         catch (InputMismatchException e){
             System.out.println(">>Wrong Attempt.Try Again..");
             speak.doSpeak("wrong attempt.Try again");
         }
+        //speak.terminate();
         }
     }
 
-    }
+
