@@ -13,5 +13,8 @@ import java.util.Locale;
 import java.io.IOException;
 import java.net.MalformedURLException;
 public class execution {
+    public static void main(String[] args) throws Exception {
 
-}
+    }
+
+    }
