@@ -20,6 +20,8 @@ public class execution {
         System.out.println("********Learning Chat Bot***********");
         for(int i=0;i<26;i++)
             System.out.print("# ");
+        System.out.println("");
+        Scanner sc = new Scanner(System.in);
     }
 
     }
