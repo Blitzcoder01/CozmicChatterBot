@@ -69,7 +69,13 @@ public class execution {
                     System.out.println(">>Well! I have a joke for you");
                     speak.doSpeak("Well! i have a joke for you");
                     if(rand_int1==0){
-
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println(">>What's the first thing a monster eats after\n he's had his teeth checked?");
+                        speak.doSpeak("What's the first thing a monster eats after he's had his teeth checked?");
+                        System.out.print(">>Your Guess: ");
+                        String s1=sc.nextLine();
                     }
                 }
             }
