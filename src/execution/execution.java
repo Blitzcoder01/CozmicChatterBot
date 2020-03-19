@@ -28,6 +28,9 @@ public class execution {
         String name = sc.nextLine();
         for(int i=0;i<26;i++)
             System.out.print("# ");
+        System.out.println("");
+        System.out.println("Hello there! " + name+".Well nice to meet you.\nso what would you like to do:");
+        speak.doSpeak("Hello there. " + name+".well! nice to meet you so what would you like to do: ");
     }
 
     }
