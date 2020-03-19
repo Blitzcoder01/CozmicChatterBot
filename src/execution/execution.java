@@ -256,6 +256,12 @@ public class execution {
                 System.out.println("");
                 System.out.println(">>Press 1 for search from a dictionary");
                 System.out.println(">>Press 2 for ask a query");
+                try {
+
+                } catch (InputMismatchException e){
+                    System.out.println(">>Wrong Input.");
+                    speak.doSpeak("wrong input.");
+                }
             }
         }
         catch (InputMismatchException e){
