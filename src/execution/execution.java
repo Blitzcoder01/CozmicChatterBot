@@ -241,6 +241,9 @@ public class execution {
                     speak.doSpeak("oh oh! wrong attempt");
                 }
             }
+            else if(choice==2){
+
+            }
         }
         catch (InputMismatchException e){
                 System.out.println(">>Wrong Attempt.Try Again..");
