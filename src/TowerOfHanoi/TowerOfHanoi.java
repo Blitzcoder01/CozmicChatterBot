@@ -6,5 +6,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 public class TowerOfHanoi {
+    public  void PlayTowerOfHanoi() {
 
+    }
 }
