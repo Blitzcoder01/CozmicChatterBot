@@ -43,6 +43,9 @@ public class execution {
         try {
             System.out.print(">>Your Choice:");
             int choice=sc.nextInt();
+            if(choice==1){
+
+            }
         }
         catch (InputMismatchException e){
             System.out.println(">>Wrong Attempt.Try Again..");
