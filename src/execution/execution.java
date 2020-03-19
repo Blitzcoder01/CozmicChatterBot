@@ -194,7 +194,20 @@ public class execution {
                     }
                 }
                 else if(choice2==2){
-
+                    System.out.println("=> Make sure your device must be connected with internet");
+                    speak.doSpeak("Make sure your device must be connected with internet");
+                    System.out.println("");
+                    System.out.println(">>Alright! which one would you like to try?");
+                    speak.doSpeak("Alright! which one would you like to try?");
+                    System.out.println("1>>Tower of Hanoi");
+                    speak.doSpeak("Tower of Hanoi");
+                    System.out.println("2>>Tic Tac Toe");
+                    speak.doSpeak("Tic Tac Toe");
+                    for(int i=0;i<26;i++)
+                        System.out.print("# ");
+                    System.out.println("");
+                    System.out.println(">>Press 1 to play Tower of Hanoi");
+                    System.out.println(">>Press 2 to play Tic Tac Toe");
                 }
             }
         }
