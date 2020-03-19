@@ -125,6 +125,9 @@ public class execution {
                             speak.doSpeak("it's two tired");
                         }
                     }
+                    else if(rand_int1==3){
+
+                    }
                 }
             }
         }
