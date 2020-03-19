@@ -114,6 +114,16 @@ public class execution {
                         speak.doSpeak("Why can't a bicycle stand on its own?");
                         System.out.print(">>Your Guess: ");
                         String s3=sc.nextLine();
+                        if(s3.equals("two tired")){
+                            speak.doSpeak("correct!");
+                            System.out.println(">>Correct! you guess the right answer.");
+                        }
+                        else {
+                            speak.doSpeak("Wrong!");
+                            System.out.println(">>Best Of Luck For The Next Time!!.");
+                            speak.doSpeak("the answer is");
+                            speak.doSpeak("it's two tired");
+                        }
                     }
                 }
             }
