@@ -88,7 +88,13 @@ public class execution {
                         }
                     }
                     else if(rand_int1==1) {
-
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println(">>What happens when a frog's car breaks?");
+                        speak.doSpeak("What happens when a frog's car breaks?");
+                        System.out.print(">>Your Guess: ");
+                        String s2=sc.nextLine();
                     }
                 }
             }
