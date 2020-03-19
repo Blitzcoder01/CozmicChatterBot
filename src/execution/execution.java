@@ -64,7 +64,7 @@ public class execution {
                     System.out.print("# ");
                 System.out.println("");
                 if(choice2==1) {
-
+                    int rand_int1 = rand.nextInt(5);
                 }
             }
         }
