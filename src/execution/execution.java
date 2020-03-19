@@ -178,6 +178,10 @@ public class execution {
                             System.out.println(">>Thank's I've got more where that came from");
                             speak.doSpeak("Thank's I've got more where that came from");
                         }
+                        else if(choice5==2){
+                            System.out.println(">>And here I was hoping to win the World Comedy Championship. \n I think you should help me curate better jokes.");
+                            speak.doSpeak("And here I was hoping to win the World Comedy Championship. \n I think you should help me curate better jokes.");
+                        }
                     }
                     catch (InputMismatchException e){
                         System.out.println(">>Wrong Input");
