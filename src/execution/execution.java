@@ -76,6 +76,10 @@ public class execution {
                         speak.doSpeak("What's the first thing a monster eats after he's had his teeth checked?");
                         System.out.print(">>Your Guess: ");
                         String s1=sc.nextLine();
+                        if(s1.equals("dentist")){
+                            speak.doSpeak("correct!");
+                            System.out.println(">>Correct! you guess the RIGHT ANSWER.");
+                        }
                     }
                 }
             }
