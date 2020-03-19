@@ -1,3 +1,9 @@
+/**
+ * program : Cozmic ChatterBot
+ * date : Mar-19-2020
+ * develop by : Riya Mathur
+ * Time :02:30pm
+ */
 package Bot_communication;
 import com.sun.speech.freetts.Gender;
 import java.beans.PropertyVetoException;
