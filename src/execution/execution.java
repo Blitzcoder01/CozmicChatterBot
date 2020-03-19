@@ -269,7 +269,15 @@ public class execution {
                         search.search_dictionary();
                     }
                     else if (choice3 == 2) {
-
+                        sc.nextLine();
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println("=> Make sure your device must be connected with internet");
+                        speak.doSpeak("Make sure your device must be connected with internet");
+                        System.out.println("");
+                        System.out.println(">>Search your query at google");
+                        speak.doSpeak("search your query at google");
                     }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
