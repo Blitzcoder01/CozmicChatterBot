@@ -219,6 +219,8 @@ public class execution {
                             speak.doSpeak("Wait a second and Enjoy The Game");
                             TowerOfHanoi play = new TowerOfHanoi();
                             play.PlayTowerOfHanoi();
+                        }
+                        else if (count4 == 2) {
 
                         }
                     }
