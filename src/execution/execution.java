@@ -15,6 +15,7 @@ import java.net.MalformedURLException;
 public class execution {
     public static void main(String[] args) throws Exception {
         BotCommunication speak = new BotCommunication();
+        Random rand = new Random();
     }
 
     }
