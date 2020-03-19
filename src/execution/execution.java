@@ -265,6 +265,7 @@ public class execution {
                         System.out.println("");
                         System.out.println(">>Just a Second ");
                         speak.doSpeak("Just a Second");
+                        dictionary search= new dictionary();
                     }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
