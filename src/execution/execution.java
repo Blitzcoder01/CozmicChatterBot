@@ -145,7 +145,13 @@ public class execution {
                         }
                     }
                     else if(rand_int1==4){
-
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println(">>What do you call a shoe made out of a banana?");
+                        speak.doSpeak("What do you call a shoe made out of a banana?");
+                        System.out.print(">>Your Guess: ");
+                        String s3=sc.nextLine();
                     }
                 }
             }
