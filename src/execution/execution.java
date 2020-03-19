@@ -31,6 +31,22 @@ public class execution {
         System.out.println("");
         System.out.println("Hello there! " + name+".Well nice to meet you.\nso what would you like to do:");
         speak.doSpeak("Hello there. " + name+".well! nice to meet you so what would you like to do: ");
+        System.out.println("1>> fun");
+        speak.doSpeak("fun ");
+        System.out.println("2>> Ask Something");
+        speak.doSpeak("ask something");
+        for(int i=0;i<26;i++)
+            System.out.print("# ");
+        System.out.println("");
+        System.out.println(">>Press 1 for fun");
+        System.out.println(">>Press 2 for ask me anything");
+        try {
+        }
+        catch (InputMismatchException e){
+            System.out.println(">>Wrong Attempt.Try Again..");
+            speak.doSpeak("wrong attempt.Try again");
+        }
+        }
     }
 
     }
