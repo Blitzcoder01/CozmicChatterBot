@@ -215,7 +215,8 @@ public class execution {
                             System.out.print("# ");
                         System.out.println("");
                         if (count4 == 1) {
-
+                            System.out.println(">>Wait a second and Enjoy The Game");
+                            speak.doSpeak("Wait a second and Enjoy The Game");
                         }
                     }
                     catch (InputMismatchException e) {
