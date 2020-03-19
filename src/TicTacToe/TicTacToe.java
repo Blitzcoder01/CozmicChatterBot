@@ -16,6 +16,15 @@ public class TicTacToe {
                 e.printStackTrace();
             }
         }
+        else {
+            Runtime runtime = Runtime.getRuntime();
+            try {
+                runtime.exec("xdg-open " + url);
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
 
     }
 }
