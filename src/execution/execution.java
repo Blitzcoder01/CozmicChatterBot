@@ -152,6 +152,10 @@ public class execution {
                         speak.doSpeak("What do you call a shoe made out of a banana?");
                         System.out.print(">>Your Guess: ");
                         String s3=sc.nextLine();
+                        if(s3.equals("slipper")){
+                            speak.doSpeak("correct!");
+                            System.out.println(">>Correct! you guess the right answer.");
+                        }
                     }
                 }
             }
