@@ -260,7 +260,9 @@ public class execution {
                     System.out.print(">>Your choice: ");
                     int choice3 = sc.nextInt();
                     if (choice3 == 1) {
-
+                        System.out.println("=> Make sure your device must be connected with internet");
+                        speak.doSpeak("Make sure your device must be connected with internet");
+                        System.out.println("");
                     }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
