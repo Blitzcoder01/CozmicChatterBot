@@ -68,6 +68,9 @@ public class execution {
                     sc.nextLine();
                     System.out.println(">>Well! I have a joke for you");
                     speak.doSpeak("Well! i have a joke for you");
+                    if(rand_int1==0){
+
+                    }
                 }
             }
         }
