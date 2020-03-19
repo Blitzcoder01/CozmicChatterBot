@@ -299,6 +299,7 @@ public class execution {
 
         }
         speak.terminate();
+        sc.close();
         }
     }
 
