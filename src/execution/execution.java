@@ -278,6 +278,7 @@ public class execution {
                         System.out.println("");
                         System.out.println(">>Search your query at google");
                         speak.doSpeak("search your query at google");
+                        WebSearch object = new WebSearch();
                     }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
