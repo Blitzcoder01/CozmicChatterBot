@@ -168,6 +168,13 @@ public class execution {
                     System.out.println("");
                     System.out.println(">>How was the Joke?");
                     speak.doSpeak("so How was the Joke?");
+                    try {
+
+                    }
+                    catch (InputMismatchException e){
+                        System.out.println(">>Wrong Input");
+                        speak.doSpeak("Wrong Input");
+                    }
                 }
             }
         }
