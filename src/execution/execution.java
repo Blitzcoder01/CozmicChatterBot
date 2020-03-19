@@ -242,7 +242,20 @@ public class execution {
                 }
             }
             else if(choice==2){
-
+                for(int i=0;i<26;i++)
+                    System.out.print("# ");
+                System.out.println("");
+                System.out.println(">>Great! so what do you like to do?");
+                speak.doSpeak("Great! so what do you like to do?");
+                System.out.println("1>>Search from a Dictionary");
+                speak.doSpeak("Search from a Dictionary");
+                System.out.println("2>>Ask a Query");
+                speak.doSpeak("ask a query");
+                for(int i=0;i<26;i++)
+                    System.out.print("# ");
+                System.out.println("");
+                System.out.println(">>Press 1 for search from a dictionary");
+                System.out.println(">>Press 2 for ask a query");
             }
         }
         catch (InputMismatchException e){
