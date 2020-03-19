@@ -95,6 +95,10 @@ public class execution {
                         speak.doSpeak("What happens when a frog's car breaks?");
                         System.out.print(">>Your Guess: ");
                         String s2=sc.nextLine();
+                        if(s2.equals("it gets toad")){
+                            speak.doSpeak("correct!");
+                            System.out.println(">>Correct! you guess the right answer.");
+                        }
                     }
                 }
             }
