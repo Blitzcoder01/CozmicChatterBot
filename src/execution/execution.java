@@ -18,6 +18,8 @@ public class execution {
         Random rand = new Random();
         speak.voice("kevin16");
         System.out.println("********Learning Chat Bot***********");
+        for(int i=0;i<26;i++)
+            System.out.print("# ");
     }
 
     }
