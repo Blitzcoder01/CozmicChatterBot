@@ -133,6 +133,10 @@ public class execution {
                         speak.doSpeak("What do clouds wear under their shorts?");
                         System.out.print(">>Your Guess: ");
                         String s3=sc.nextLine();
+                        if(s3.equals("thunderpants")){
+                            speak.doSpeak("correct!");
+                            System.out.println(">>Correct! you guess the right answer.");
+                        }
                     }
                 }
             }
