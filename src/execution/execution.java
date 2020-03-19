@@ -208,12 +208,20 @@ public class execution {
                     System.out.println("");
                     System.out.println(">>Press 1 to play Tower of Hanoi");
                     System.out.println(">>Press 2 to play Tic Tac Toe");
+                    try {
+
+                    }
+                    catch (InputMismatchException e) {
+                        System.out.println(">>Wrong Try, Try Again!");
+                        speak.doSpeak("wrong try, try again!");
+                    }
                 }
             }
         }
         catch (InputMismatchException e){
-            System.out.println(">>Wrong Attempt.Try Again..");
-            speak.doSpeak("wrong attempt.Try again");
+                System.out.println(">>Wrong Attempt.Try Again..");
+                speak.doSpeak("wrong attempt.Try again");
+
         }
         //speak.terminate();
         }
