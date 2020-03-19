@@ -59,6 +59,10 @@ public class execution {
                 System.out.println(">>Press 1 for a joke");
                 System.out.println(">>Press 2 for  play a game");
                 System.out.print(">>Your Choice: ");
+                int choice2=sc.nextInt();
+                for(int i=0;i<26;i++)
+                    System.out.print("# ");
+                System.out.println("");
             }
         }
         catch (InputMismatchException e){
