@@ -22,6 +22,12 @@ public class execution {
             System.out.print("# ");
         System.out.println("");
         Scanner sc = new Scanner(System.in);
+        System.out.println("Hi there! I am Cozmo, your personal learning assistant chatbot.\nPlease tell me your name?");
+        speak.doSpeak("Hi there! I am Cozmo, your personal learning assistant chatbot! please tell me your name?");
+        System.out.print("Enter your name here: ");
+        String name = sc.nextLine();
+        for(int i=0;i<26;i++)
+            System.out.print("# ");
     }
 
     }
