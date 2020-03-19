@@ -214,6 +214,9 @@ public class execution {
                         for(int i=0;i<26;i++)
                             System.out.print("# ");
                         System.out.println("");
+                        if (count4 == 1) {
+
+                        }
                     }
                     catch (InputMismatchException e) {
                         System.out.println(">>Wrong Try, Try Again!");
