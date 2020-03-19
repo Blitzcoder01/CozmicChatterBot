@@ -221,7 +221,8 @@ public class execution {
                             play.PlayTowerOfHanoi();
                         }
                         else if (count4 == 2) {
-
+                            System.out.println(">>Wait a second and Enjoy The Game");
+                            speak.doSpeak("Wait a second and Enjoy The Game");
                         }
                     }
                     catch (InputMismatchException e) {
