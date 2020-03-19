@@ -281,10 +281,16 @@ public class execution {
                         WebSearch object = new WebSearch();
                         object.search();
                     }
-                } catch (InputMismatchException e){
+                }
+                catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
                     speak.doSpeak("wrong input.");
                 }
+            }
+            else{
+
+                System.out.println(">>Wrong Attempt");
+                speak.doSpeak("wrong attempt");
             }
         }
         catch (InputMismatchException e){
