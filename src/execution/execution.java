@@ -86,6 +86,8 @@ public class execution {
                             speak.doSpeak("the answer is");
                             speak.doSpeak("dentist");
                         }
+                    }
+                    else if(rand_int1==1) {
 
                     }
                 }
