@@ -298,7 +298,7 @@ public class execution {
                 speak.doSpeak("wrong attempt.Try again");
 
         }
-        //speak.terminate();
+        speak.terminate();
         }
     }
 
