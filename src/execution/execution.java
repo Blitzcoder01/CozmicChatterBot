@@ -163,6 +163,11 @@ public class execution {
                             speak.doSpeak("a slipper");
                         }
                     }
+                    for(int i=0;i<26;i++)
+                        System.out.print("# ");
+                    System.out.println("");
+                    System.out.println(">>How was the Joke?");
+                    speak.doSpeak("so How was the Joke?");
                 }
             }
         }
