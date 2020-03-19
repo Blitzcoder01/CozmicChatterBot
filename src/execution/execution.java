@@ -209,7 +209,11 @@ public class execution {
                     System.out.println(">>Press 1 to play Tower of Hanoi");
                     System.out.println(">>Press 2 to play Tic Tac Toe");
                     try {
-
+                        System.out.print("Your Choice: ");
+                        int count4 = sc.nextInt();
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
                     }
                     catch (InputMismatchException e) {
                         System.out.println(">>Wrong Try, Try Again!");
