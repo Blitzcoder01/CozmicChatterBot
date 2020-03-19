@@ -44,7 +44,9 @@ public class execution {
             System.out.print(">>Your Choice:");
             int choice=sc.nextInt();
             if(choice==1){
-
+                for(int i=0;i<26;i++)
+                    System.out.print("# ");
+                System.out.println("");
             }
         }
         catch (InputMismatchException e){
