@@ -169,7 +169,11 @@ public class execution {
                     System.out.println(">>How was the Joke?");
                     speak.doSpeak("so How was the Joke?");
                     try {
-
+                        System.out.println(">>Press 1 if it was good");
+                        System.out.println(">>Press 2 if it was ok");
+                        System.out.println(">>Press 3 if it was bad");
+                        System.out.print(">>Your Choice:");
+                        int choice5=sc.nextInt();
                     }
                     catch (InputMismatchException e){
                         System.out.println(">>Wrong Input");
