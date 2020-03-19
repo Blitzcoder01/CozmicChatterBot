@@ -263,6 +263,8 @@ public class execution {
                         System.out.println("=> Make sure your device must be connected with internet");
                         speak.doSpeak("Make sure your device must be connected with internet");
                         System.out.println("");
+                        System.out.println(">>Just a Second ");
+                        speak.doSpeak("Just a Second");
                     }
                 } catch (InputMismatchException e){
                     System.out.println(">>Wrong Input.");
