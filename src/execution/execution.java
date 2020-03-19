@@ -218,6 +218,7 @@ public class execution {
                             System.out.println(">>Wait a second and Enjoy The Game");
                             speak.doSpeak("Wait a second and Enjoy The Game");
                             TowerOfHanoi play = new TowerOfHanoi();
+                            play.PlayTowerOfHanoi();
 
                         }
                     }
