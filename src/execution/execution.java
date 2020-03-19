@@ -217,6 +217,8 @@ public class execution {
                         if (count4 == 1) {
                             System.out.println(">>Wait a second and Enjoy The Game");
                             speak.doSpeak("Wait a second and Enjoy The Game");
+                            TowerOfHanoi play = new TowerOfHanoi();
+
                         }
                     }
                     catch (InputMismatchException e) {
