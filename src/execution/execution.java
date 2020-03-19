@@ -47,6 +47,8 @@ public class execution {
                 for(int i=0;i<26;i++)
                     System.out.print("# ");
                 System.out.println("");
+                System.out.println("Great Choice! so what do you like to do ?");
+                speak.doSpeak("Great choice! so what do you like to do?");
             }
         }
         catch (InputMismatchException e){
