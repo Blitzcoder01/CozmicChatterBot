@@ -106,6 +106,15 @@ public class execution {
                             speak.doSpeak("it gets toad");
                         }
                     }
+                    else if(rand_int1==2){
+                        for(int i=0;i<26;i++)
+                            System.out.print("# ");
+                        System.out.println("");
+                        System.out.println(">>Why can't a bicycle stand on its own?");
+                        speak.doSpeak("Why can't a bicycle stand on its own?");
+                        System.out.print(">>Your Guess: ");
+                        String s3=sc.nextLine();
+                    }
                 }
             }
         }
