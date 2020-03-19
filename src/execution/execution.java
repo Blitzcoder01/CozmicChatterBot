@@ -224,6 +224,8 @@ public class execution {
                             System.out.println(">>Wait a second and Enjoy The Game");
                             speak.doSpeak("Wait a second and Enjoy The Game");
                             TicTacToe play = new TicTacToe();
+                            play.playTicTacToe();
+
                         }
                     }
                     catch (InputMismatchException e) {
