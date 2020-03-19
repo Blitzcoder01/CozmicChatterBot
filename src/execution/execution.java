@@ -223,6 +223,7 @@ public class execution {
                         else if (count4 == 2) {
                             System.out.println(">>Wait a second and Enjoy The Game");
                             speak.doSpeak("Wait a second and Enjoy The Game");
+                            TicTacToe play = new TicTacToe();
                         }
                     }
                     catch (InputMismatchException e) {
