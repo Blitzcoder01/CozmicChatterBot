@@ -225,7 +225,10 @@ public class execution {
                             speak.doSpeak("Wait a second and Enjoy The Game");
                             TicTacToe play = new TicTacToe();
                             play.playTicTacToe();
-
+                        }
+                        else {
+                            System.out.println(">>Wrong Try, Try Again!");
+                            speak.doSpeak("Wrong Try, Try Again!");
                         }
                     }
                     catch (InputMismatchException e) {
