@@ -17,6 +17,7 @@ public class execution {
         BotCommunication speak = new BotCommunication();
         Random rand = new Random();
         speak.voice("kevin16");
+        System.out.println("********Learning Chat Bot***********");
     }
 
     }
